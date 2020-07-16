@@ -1,0 +1,30 @@
+Quetion:1
+1.console.log("javascript"):The most popular function of the console object is log() function which will simply print given data, text or object into the console output.
+2.console.warn("warning msg"):warning() function is used to print warning messages to the console output
+3.console.info("plz close it"):Informational messages will be displayed by the info() function.
+4.console.error("u have error"):We can print the error messages to the console with the error()function. An error symbol will be displayed in the outputs and the output text color will be red to express this is an error.
+5.console.trace():While running JavaScript code on the browser DOM there will be some stack about running JavaScript code. We can print this stack to the console output with the trace() function for the currently executed code.
+6.console.dir(document.all):dir() function is used to print some data or object to the console output in a pretty way.
+7.console.table():table() function is used to display given data or object in a table formatted way.
+8.console.group(),console.grounpEnd():We can use groups in order to print messages in hierarchical manner. Groups can group() and end with groupEnd() functions. Groups can be nested as inner group list a regular group.
+9.console.assert(): method writes a message to the console, but only if an expression evaluates to false.
+10.console.clear() method clears the console.
+11.Writes to the console the number of times that particular console.count() is called.
+12.The console.timeEnd() method ends a timer, and writes the result in the console view.
+Quetion:2
+1.var declarations are globally scoped or function scoped while let and const are block scoped.
+2.var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared.
+3.They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
+4.While var and let can be declared without being initialized, const must be initialized during declaration.
+Quetion:3
+There are six basic data types in JavaScript which can be divided into three main categories: primitive (or primary), composite (or reference), and special data types. String, Number, and Boolean are primitive data types. Object, Array, and Function (which are all types of objects) are composite data types.
+primitive:
+1.string:The string data type is used to represent textual data (i.e. sequences of characters). Strings are created using single or double quotes surrounding one or more characters.
+2.number:The number data type is used to represent positive or negative numbers.
+3.boolean:The Boolean data type can hold only two values: true or false.
+4.undefined:The undefined data type can only have one value-the special value undefined.
+5.null:The undefined data type can only have one value-the special value undefined.
+non primitive:
+1.object:The object is a complex data type that allows you to store collections of data.
+2.array:An array is a type of object used for storing multiple values in single variable.
+3.function:The function is callable object that executes a block of code.
