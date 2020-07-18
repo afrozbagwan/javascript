@@ -1,0 +1,35 @@
+1) lastIndexOf(): method returns the index of the last occurrence of a specified text in a string.
+eg
+var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+
+2)search(): method searches a string for a specified value and returns the position of the match.
+eg.
+var str = "Please locate where 'locate' occurs!";
+var pos = str.search("locate");
+
+3)slice(): extracts a part of a string and returns the extracted part in a new string.
+The method takes 2 parameters: the start position, and the end position (end not included).
+eg.
+var str = "Apple, Banana, Kiwi";
+var res = str.slice(7, 13);
+4)The replace() method replaces a specified value with another value in a string
+eg.
+str = "Please visit Microsoft!";
+var n = str.replace("Microsoft", "W3Schools");
+5)A string is converted to upper case with toUpperCase()
+eg.
+var text1 = "Hello World!";       // String
+var text2 = text1.toUpperCase();
+6)A string is converted to lower case with toLowerCase():
+eg.
+var text1 = "Hello World!";       // String
+var text2 = text1.toLowerCase();  // text2 is text1 converted to lower
+7)The charAt() method returns the character at a specified index (position) in a string:
+
+array method
+1)The pop() method removes the last element from an array
+2)The push() method adds a new element to an array (at the end).
+3)The shift() method removes the first array element.
+4)The unshift() method adds a new element to an array (at the beginning).
+5)

@@ -1,0 +1,13 @@
+var set = "hello friends my name is xyz,my hobby is xys"
+console.log(set)
+var s=set.lastIndexOf("xyz")
+console.log(s)
+console.log(set.length)
+console.log(set.search("my"))
+console.log(set.substr(-43))
+console.log(set.slice(3,7))
+console.log(set.replace("hello","hi"))
+console.log(set.toUpperCase())
+console.log(set.toLowerCase())
+console.log(set.charAt(12))
+console.log(set.split("|"))
